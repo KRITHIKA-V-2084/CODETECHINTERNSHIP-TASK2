@@ -14,6 +14,7 @@ Mentor: SRAVANI GOUNI
 ### **OVERVIEW OF THE PROJECT:**
 
 **PROJECT :** STUDENT GRADE TRACKER
+
 **OBJECTIVE:**
 The objective of the code is to create a Python program that tracks and manages student grades. The program allows the user to input grades for different subjects or assignments, calculates the average grade, determines the corresponding letter grade and GPA, and displays a summary of the student's performance. This includes detailed information for each subject, the overall average grade, the letter grade, and the GPA, providing a comprehensive overview of the student's academic standing.
 
@@ -53,3 +54,37 @@ The key features of the code are:
 
 - get_letter_grade(average): Determines the letter grade from the numeric average.
 - get_gpa(letter_grade): Converts the letter grade to the GPA.
+
+**TECHNOLOGIES USED:**
+
+The above code uses the following technologies and features of the Python programming language:
+
+- Python Programming Language: The entire program is written in Python, a high-level, interpreted language known for its readability and ease of use.
+
+1) Standard Input/Output:
+
+- input(): Used to gather input from the user for subjects and grades.
+- print(): Used to display messages, prompts, and the summary of grades and calculations to the user.
+
+2) Data Structures:
+
+- Lists: Used to store the subjects and corresponding grades.
+'
+3) Control Structures:
+
+- Loops: while loop to continuously prompt the user for input until they type 'done'.
+- Conditional Statements: if, elif, and else statements to handle different grade ranges and validate input.
+
+4) Functions:
+
+- get_letter_grade(average): Converts a numeric average grade to a letter grade.
+- get_gpa(letter_grade): Converts a letter grade to a GPA value.
+- main(): The main function that orchestrates the overall flow of the program, handling input, processing, and output.
+
+5) Error Handling:
+
+- Try/Except Block: Used to catch and handle ValueError exceptions when non-numeric input is provided for grades, ensuring the program doesn't crash and provides a user-friendly error message.
+  
+**OUTPUT OF THE CODE:**
+
+![image](https://github.com/KRITHIKA-V-2084/CODETECHINTERNSHIP-TASK2/assets/111370502/63517dcc-c24c-4464-9cf3-4e76b570fa81)
